@@ -15,6 +15,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* position: fixed; */
 }
 nav .logo img{
     width: 139px;
@@ -171,7 +172,7 @@ nav ul{
     height: 280px;
    text-align: center;
    border-radius: 10px;
-    box-shadow: 10px 6px 50px rgba(128, 128, 128, 0.301);
+    box-shadow: 10px 6px 50px rgba(190, 190, 190, 0.301);
     transition: 0.7s ease-in-out;
 }
 .box:hover{
@@ -208,7 +209,7 @@ nav ul{
 }
 .brain-img img{
     width: 500px;
-    box-shadow: 0px 6px 20px rgba(128, 128, 128, 0.301);
+    box-shadow: 0px 6px 20px rgba(189, 189, 189, 0.301);
 }
 .brain-content{
     width: 500px; 
@@ -278,7 +279,7 @@ nav ul{
 
 footer{
     height: 340px;
-    background: rgb(2, 48, 90);
+    background: rgb(1, 26, 51);
 }
 .footer-container{
     width: 80%;
