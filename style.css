@@ -190,3 +190,80 @@ nav ul{
     font-size: 16px;
     color: #757575;
 }
+#Second-Brain .brain-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 120px 120px 120px;
+    gap: 60px;
+}
+.brain-img img{
+    width: 500px;
+    box-shadow: 0px 6px 20px rgba(128, 128, 128, 0.301);
+}
+.brain-content{
+    width: 500px; 
+    text-align: left;
+
+}
+.brain-content h5{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+.brain-content h1{
+    font-size: 45px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.brain-content h6{
+    width: 85%;
+    line-height: 15px;
+    color: #627382;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.blue-tik p{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.blue-tik i{
+    color: #30B868;
+    margin-right: 5px;
+}
+
+#Early-access{
+    padding: 2px 120px 120px 120px;
+    
+}
+#Early-access .early-contianer{
+    padding: 80px 140px;
+    height: 385px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcf5ee;
+    border-radius: 10px;
+}
+.early-contianer h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.early-contianer p{
+    text-align: center;
+    font-size: 14px;
+    color: #627382;
+    margin-bottom: 25px;
+    
+}
+.early-btn .btn-1{
+    padding: 15px 25px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.early-btn .btn-1:hover{
+    border: 1px solid black;
+    color: black;
+}
