@@ -170,7 +170,7 @@ nav ul{
     color: #757575;
 }
 .notes-box{
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 0 auto;
     gap: 20px;
     display: flex;
