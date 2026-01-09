@@ -45,7 +45,7 @@ nav ul{
     font-size: 16px;
     border: none;
     border-radius: 4px;
-    transition: 1s ease-in-out;
+    transition: 0.7s ease-in-out;
 }
 .btn:hover{
     background-color: white;
@@ -72,11 +72,19 @@ nav ul{
       color: #30B868;
       font-weight: 400;
       margin-bottom: 10px;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
        
 }
 .banner-btn i{
     font-size: 16px;
     color: #30B868;
+}
+.banner-btn:hover{
+    transform: translateY(-10px);
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
 }
 .banner-heading{
     line-height: 55px;
@@ -236,11 +244,11 @@ nav ul{
 }
 
 #Early-access{
-    padding: 2px 120px 120px 120px;
+    padding: 2px 120px 100px 120px;
     
 }
 #Early-access .early-contianer{
-    padding: 80px 140px;
+    padding: 60px 140px;
     height: 385px;
     margin: 0 auto;
     text-align: center;
@@ -266,4 +274,50 @@ nav ul{
 .early-btn .btn-1:hover{
     border: 1px solid black;
     color: black;
+}
+
+footer{
+    height: 340px;
+    background: rgb(2, 48, 90);
+}
+.footer-container{
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    padding: 100px 120px; 
+}
+.footer-container .social{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container .social-icon h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.social{
+    margin-bottom: 130px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    margin-right:8px ;
+    
+}
+.social-icon a i{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.5s;
+}
+.social-icon a i:hover{
+    transform: scale(1.1);
+}
+
+.copy{
+    text-align: center;
+}
+.copy p{
+    color: white;
+    font-weight: normal;
 }
